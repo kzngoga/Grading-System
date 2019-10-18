@@ -1,7 +1,7 @@
 <?php
 $server = "localhost";
 $username = "root";
-$password = "kztechDB100%";
+$password = "";
 $dbname = "grading_system";
 
 $con = mysqli_connect($server, $username, $password, $dbname);
