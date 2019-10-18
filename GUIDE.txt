@@ -1,0 +1,55 @@
+step1: install Xampp
+
+step2: open Xampp and start running a php server,
+*Click start button near(apache)
+*Click start button near(sql)
+
+step3:Saving a php file
+*go in xampp folder in local disk(c:/)
+*go in htdocs and save your project folder there.
+N.B:Always save php project folders in htdocs folder!
+
+path to htdocs => C:\xampp\htdocs
+step3: start accessing php pages,and php DB server
+*go in your browser and type => 'localhost/phpmyadmin/' to access your php database
+
+N.B: when you didn't create a DB and someone is sending you his/her DB for you to access it
+here are the steps to access it without having any errors.
+
+*Create a DB with the same name as his/her DB you want to access
+*next you need to import the database
+-first click on the database to enter in it
+-click on the import tab on the menu above
+-you will see a button for choose file then click it and browse for your sql file
+-when the file is already uploaded click go.
+-then you wil see tables and start viewing data stored into your DB!
+N.B: next time when you'll be accessing your DB you will only browse the link and start accessing your
+DB without repeating all those steps.
+
+step4: Accessing student grading system
+*to access php files you have to type => 'localhost/projet_folder_name/index.php'
+*to access my page type => 'http://localhost/student%20grading%20system/index.php'
+
+this will lead you to a login for the Admin/Dos user
+
+my super admin login details
+
+username: cedric
+password: Cedro10%
+
+Dos login details
+
+username: kenny
+password: Kenny10%
+
+but you can change this when you are in the admin dashboard.
+you can also create other users of the system: teachers,Dos,students and also acess their pages
+
+N.B: when you create a user his/her password is sent to the e-mail that you typed in the form. so type in your email to view 
+the password.
+
+DB name is: grading_system
+
+**For any further info needed tell me!
+
+

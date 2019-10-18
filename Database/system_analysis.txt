@@ -1,0 +1,47 @@
+** Student Grading system is a system that helps teachers to record their student's marks and students will also be able to view their marks.
+
+This System contains Admin,student and Teacher:
+
+ADMIN
+*****
+
+-Will be able to view & record teachers info.
+-Will be able to view & record students info.
+-Will be able to view  report for student marks in case of need.
+
+TEACHER
+*******
+-View his / her students
+-Add student's marks by course
+
+
+STUDENTS
+********
+-View his / her marks
+-print transcript
+-Transcript won't be available until all courses have marks.
+
+DOS
+***
+-Check teachers' operations
+-View Student's marks
+-View Class Info.
+-If Student has less marks than the Pass mark, he/she/other must pay the re-do fee.
+-will be able to view teachers mark report and when report is confirmed it will be removed from the report table and sent to report_archives.
+-He will be able to send notifications to teachers who have not yet sent reports
+
+
+TO-DO LIST
+***********
+
+
+
+
+
+
+
+
+
+-show that a table is empty
+-change icons(on welcome panel,navigation bar active)
+-forgot password

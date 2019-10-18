@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>UI Test</title>
+
+<!-- META TAGS, Website SEO, Author, Keywords, Responsiveness -->
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- LINKS OF THE WEBSITE, STYLING FILES, AND THE WEBSITE HEADER ICON-->
+
+<link rel="icon" href="../img/logo.png">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/test.css">
+<link rel="stylesheet" href="css/animate.css">
+
+
+<script src="js/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/all.min.js"></script>
+<script src="js/main-script.js"></script>
+<script src="js/wow.min.js"></script>
+<style>
+  html,body{
+    height: 100%;
+  }
+body{
+  background-color: #fcfbfb;
+  /*background: linear-gradient(90deg,#f2f2f2 25%,#ccc 75%);*/
+  font-family: Roboto,sans-serif !important;
+  min-height: 100vh;
+}
+</style>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top main-nav">
+  <div class="container">
+        <a class="navbar-brand" href="index.php"><i class="fas fa-book logo-icon"></i> Grading <span class="fat">System</span></a>
+
+      <ul class="nav navbar-nav ml-auto lang-switcher">
+      <li class="nav-item">
+      <span class="user-img">
+        <span class="user-icon">
+          <i class="fas fa-user-lock"></i>
+        </span>
+        <span class="status online"></span>
+      </span> <span class="hello-user">Hey, John!</span>
+      </li>       
+
+      <li class="nav-item">
+        <a class="nav-link" href="teacher-login.php">
+        <i class="fas fa-chalkboard-teacher"></i> Logout</a>
+      </li>
+      </ul>
+    </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row">
+    <nav class="col-md-2 d-none d-md-block sidebar">
+      <div class="sidebar-sticky">
+      <div class="dash-salute wow bounceInUp" data-wow-duration="2s">
+      <h4 class=""><i class='fas fa-sun'></i> Good Morning!</h4>
+      </div>
+        <ul class="nav flex-column dash-nav">
+          <li class="nav-item">
+          <a href="index.php" class="nav-link active">
+          <i class="fa fa-home dash-icon"></i> Home</a></li>
+
+          <li class="nav-item">
+          <a href="add_users.php" class="nav-link">
+          <i class="fa fa-user-lock dash-icon"></i> Add User</a></li>
+
+          <li class="nav-item">
+          <a href="view_users.php" class="nav-link"><i class="fa fa-user-lock dash-icon"></i> 
+          System Users
+          <span class="badge badge-primary">
+          12
+          </span>
+          </a></li>                  
+
+          <li class="nav-item">
+          <a href="add_teachers.php" class="nav-link">
+          <i class="fa fa-user-edit dash-icon"></i> Add Teacher</a></li>
+          <li class="nav-item">
+          <a href="view_teachers.php" class="nav-link"><i class="fa fa-eye dash-icon"></i> View Teachers 
+          <span class="badge badge-primary">
+          12
+          </span>
+          </a></li>  
+
+          <li class="nav-item">
+          <a href="add_students.php" class="nav-link">
+          <i class="fa fa-user-edit dash-icon"></i> Add Student</a></li>
+
+          <li class="nav-item">
+          <a href="view_students.php" class="nav-link">
+          <i class="fa fa-eye dash-icon"></i> View Students 
+          <span class="badge badge-primary">
+          12
+          </span>
+          </a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main role="main" class="col-md-10 ml-sm-auto px-4">
+      <div class="dash-output-section">
+        <div class="welcome">
+          <h1 class=""><i class="fas fa-user-lock"></i> Welcome John</h1>
+          <p class="text-center">Your Login was succesfull and Now you are able to use "STUDENT GRADING SYSTEM"</p>
+        </div>    
+        <div class="activities">
+          <!-- <h1 class="text-center">Main Activities</h1> -->
+          <div class="row">                           
+            <div class="col-md-4">
+              <div class=" activity-div">
+                <div class="row">
+                  <div class="col-md-6">
+                    <span class="activity-icon">
+                      <i class="fas fa-user-graduate"></i>
+                    </span>
+                  </div>            
+                  <div class="col-md-6 text-right">
+                    <h3>678</h3>
+                    <span class="activity-heading">
+                      Students
+                      <i class="fas fa-check-circle"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>                   
+
+            <div class="col-md-4">
+              <div class=" activity-div" style="border-top: 3px solid #1ca48c;">
+                <div class="row">
+                  <div class="col-md-6">
+                    <span class="activity-icon" style="background-color: #1ca48c;">
+                      <i class="fas fa-chalkboard-teacher"></i>
+                    </span>
+                  </div>            
+                  <div class="col-md-6 text-right">
+                    <h3>45</h3>
+                    <span class="activity-heading" style="background-color: #1ca48c;">
+                      Teachers
+                      <i class="fas fa-check-circle"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>                   
+
+            <div class="col-md-4">
+              <div class=" activity-div" style="border-top: 3px solid #5d6a7d;">
+                <div class="row">
+                  <div class="col-md-6">
+                    <span class="activity-icon" style="background-color: #5d6a7d;">
+                      <i class="fas fa-user-lock"></i>
+                    </span>
+                  </div>            
+                  <div class="col-md-6 text-right">
+                    <h3>1223</h3>
+                    <span class="activity-heading" style="background-color: #5d6a7d;">
+                      Users
+                      <i class="fas fa-check-circle"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>              
+          </div>
+        </div> 
+      </div>
+    </main>    
+  </div>
+</div>
+<script>
+new WOW().init();
+</script>
+</body>
+</html>
